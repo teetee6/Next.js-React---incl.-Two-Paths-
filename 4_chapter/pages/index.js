@@ -6,7 +6,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <EventList />
+      <EventList items={featuredEvents} />
     </div>
   );
 }
